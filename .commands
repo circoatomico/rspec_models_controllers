@@ -1,0 +1,23 @@
+gem factory_bot_rails
+estudar FactoryBot no rails
+
+gem 'rspec-rails', '~> 6.0.0'
+
+rails g model Category description:string
+
+
+-- para gerar manualmente os testes para um determinado model
+rails g rspec:model Product
+
+
+Ao testar models, as validações devem ser testadas
+
+
+instalar devise seguindo o guide install
+https://github.com/heartcombo/devise
+
+rails g devise:install
+
+rails g devise Member
+
+gem 'rspec-json_expectations'
